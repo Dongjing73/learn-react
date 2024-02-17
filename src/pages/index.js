@@ -2,16 +2,13 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-// import Profile from './components/profile'
-// import Bio from 'src/pages/qcomps/bios.js'
-import Todo from "src/pages/qcomps/todos.js";
-
-
+// import Profile from './qcomps/props_item.js'
+import Profile from './components/square.js'
 
 export default function Home() {
-  return (
-    <div className={styles.main}>
-        <Todo />
-    </div>
-  )
+    return (
+        <div className={styles.main}>
+            <Profile />
+        </div>
+    )
 }

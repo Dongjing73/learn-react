@@ -12,12 +12,12 @@ const person = {
 export default function TodoList() {
     return (
         <div style={person.theme}>
-            <h1>{person.name}`s Todos</h1>
+            <h1>Person Name's Todos</h1>
             <img className="avatar"
+                // src={baseUrl + person.imageId + person.imageSize + '.jpg'}
                  src={`${baseUrl}${person.imageId}${person.imageSize}.jpg`}
-                 alt={person.Name}
+                 alt={person.name}
             />
         </div>
     );
 }
-//baseURL + imageID + imageSize + .jpg
